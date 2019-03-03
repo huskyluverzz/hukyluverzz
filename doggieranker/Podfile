@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'doggieranker' do
+  pod 'Firebase/Core'
+  use_frameworks!
+
+  # Pods for doggieranker
+
+  target 'doggierankerTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'doggierankerUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

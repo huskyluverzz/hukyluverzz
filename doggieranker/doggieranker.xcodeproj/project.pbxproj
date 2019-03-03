@@ -14,6 +14,12 @@
 		0D472898222C65EB00DC5386 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D472896222C65EB00DC5386 /* LaunchScreen.storyboard */; };
 		0D4728A3222C65EB00DC5386 /* doggierankerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4728A2222C65EB00DC5386 /* doggierankerTests.swift */; };
 		0D4728AE222C65EB00DC5386 /* doggierankerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4728AD222C65EB00DC5386 /* doggierankerUITests.swift */; };
+		0D4728BC222C681900DC5386 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D4728BB222C681900DC5386 /* GoogleService-Info.plist */; };
+		0D4728BD222C681900DC5386 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D4728BB222C681900DC5386 /* GoogleService-Info.plist */; };
+		0D4728BE222C681900DC5386 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D4728BB222C681900DC5386 /* GoogleService-Info.plist */; };
+		E48929083A80FB2BA4CC8628 /* Pods_doggierankerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81945D2757C3C92744C77E6A /* Pods_doggierankerTests.framework */; };
+		E5B4BD69306A4D0E4F44BAD9 /* Pods_doggieranker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CEE8C427A20E95EF7CD084 /* Pods_doggieranker.framework */; };
+		EE246B5EC4D5FE1261A04551 /* Pods_doggierankerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85766F73C5C52F1E24718FE1 /* Pods_doggierankerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,16 @@
 		0D4728A9222C65EB00DC5386 /* doggierankerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = doggierankerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D4728AD222C65EB00DC5386 /* doggierankerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doggierankerUITests.swift; sourceTree = "<group>"; };
 		0D4728AF222C65EB00DC5386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D4728BB222C681900DC5386 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1EC905AC4CEC2E5402CA2DF4 /* Pods-doggierankerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doggierankerUITests.release.xcconfig"; path = "Target Support Files/Pods-doggierankerUITests/Pods-doggierankerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5FFC55C46A0C731B5BBF8D56 /* Pods-doggieranker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doggieranker.debug.xcconfig"; path = "Target Support Files/Pods-doggieranker/Pods-doggieranker.debug.xcconfig"; sourceTree = "<group>"; };
+		7090D0CB299888C47ED5D756 /* Pods-doggierankerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doggierankerTests.debug.xcconfig"; path = "Target Support Files/Pods-doggierankerTests/Pods-doggierankerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81945D2757C3C92744C77E6A /* Pods_doggierankerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_doggierankerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85766F73C5C52F1E24718FE1 /* Pods_doggierankerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_doggierankerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BB65FFDE0DFFC65B19C5F57 /* Pods-doggierankerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doggierankerUITests.debug.xcconfig"; path = "Target Support Files/Pods-doggierankerUITests/Pods-doggierankerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D7B54EFFAB1A46CF285ECDC /* Pods-doggieranker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doggieranker.release.xcconfig"; path = "Target Support Files/Pods-doggieranker/Pods-doggieranker.release.xcconfig"; sourceTree = "<group>"; };
+		9DCD77D8085A2C164D6C32BA /* Pods-doggierankerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doggierankerTests.release.xcconfig"; path = "Target Support Files/Pods-doggierankerTests/Pods-doggierankerTests.release.xcconfig"; sourceTree = "<group>"; };
+		B9CEE8C427A20E95EF7CD084 /* Pods_doggieranker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_doggieranker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5B4BD69306A4D0E4F44BAD9 /* Pods_doggieranker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E48929083A80FB2BA4CC8628 /* Pods_doggierankerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE246B5EC4D5FE1261A04551 /* Pods_doggierankerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,8 @@
 				0D4728A1222C65EB00DC5386 /* doggierankerTests */,
 				0D4728AC222C65EB00DC5386 /* doggierankerUITests */,
 				0D47288B222C65E900DC5386 /* Products */,
+				2B3F87FA615146E0B396143B /* Pods */,
+				D07BAD5B48212A5E70D848E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +124,7 @@
 				0D472894222C65EB00DC5386 /* Assets.xcassets */,
 				0D472896222C65EB00DC5386 /* LaunchScreen.storyboard */,
 				0D472899222C65EB00DC5386 /* Info.plist */,
+				0D4728BB222C681900DC5386 /* GoogleService-Info.plist */,
 			);
 			path = doggieranker;
 			sourceTree = "<group>";
@@ -125,6 +147,30 @@
 			path = doggierankerUITests;
 			sourceTree = "<group>";
 		};
+		2B3F87FA615146E0B396143B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FFC55C46A0C731B5BBF8D56 /* Pods-doggieranker.debug.xcconfig */,
+				9D7B54EFFAB1A46CF285ECDC /* Pods-doggieranker.release.xcconfig */,
+				7090D0CB299888C47ED5D756 /* Pods-doggierankerTests.debug.xcconfig */,
+				9DCD77D8085A2C164D6C32BA /* Pods-doggierankerTests.release.xcconfig */,
+				9BB65FFDE0DFFC65B19C5F57 /* Pods-doggierankerUITests.debug.xcconfig */,
+				1EC905AC4CEC2E5402CA2DF4 /* Pods-doggierankerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D07BAD5B48212A5E70D848E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9CEE8C427A20E95EF7CD084 /* Pods_doggieranker.framework */,
+				81945D2757C3C92744C77E6A /* Pods_doggierankerTests.framework */,
+				85766F73C5C52F1E24718FE1 /* Pods_doggierankerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D4728B2222C65EB00DC5386 /* Build configuration list for PBXNativeTarget "doggieranker" */;
 			buildPhases = (
+				6AB0C2138CAFE0202AE4FF90 /* [CP] Check Pods Manifest.lock */,
 				0D472886222C65E900DC5386 /* Sources */,
 				0D472887222C65E900DC5386 /* Frameworks */,
 				0D472888222C65E900DC5386 /* Resources */,
+				8B112B03D0ECC639D70F3E3D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D4728B5222C65EB00DC5386 /* Build configuration list for PBXNativeTarget "doggierankerTests" */;
 			buildPhases = (
+				37A912F41B605EFED6070B22 /* [CP] Check Pods Manifest.lock */,
 				0D47289A222C65EB00DC5386 /* Sources */,
 				0D47289B222C65EB00DC5386 /* Frameworks */,
 				0D47289C222C65EB00DC5386 /* Resources */,
@@ -167,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D4728B8222C65EB00DC5386 /* Build configuration list for PBXNativeTarget "doggierankerUITests" */;
 			buildPhases = (
+				4B7ABAD4807070AF406E77C0 /* [CP] Check Pods Manifest.lock */,
 				0D4728A5222C65EB00DC5386 /* Sources */,
 				0D4728A6222C65EB00DC5386 /* Frameworks */,
 				0D4728A7222C65EB00DC5386 /* Resources */,
@@ -230,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D472898222C65EB00DC5386 /* LaunchScreen.storyboard in Resources */,
+				0D4728BC222C681900DC5386 /* GoogleService-Info.plist in Resources */,
 				0D472895222C65EB00DC5386 /* Assets.xcassets in Resources */,
 				0D472893222C65E900DC5386 /* Main.storyboard in Resources */,
 			);
@@ -239,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D4728BD222C681900DC5386 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,10 +298,104 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D4728BE222C681900DC5386 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37A912F41B605EFED6070B22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-doggierankerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B7ABAD4807070AF406E77C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-doggierankerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AB0C2138CAFE0202AE4FF90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-doggieranker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B112B03D0ECC639D70F3E3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-doggieranker/Pods-doggieranker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-doggieranker/Pods-doggieranker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0D472886222C65E900DC5386 /* Sources */ = {
@@ -430,6 +576,7 @@
 		};
 		0D4728B3222C65EB00DC5386 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FFC55C46A0C731B5BBF8D56 /* Pods-doggieranker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +595,7 @@
 		};
 		0D4728B4222C65EB00DC5386 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D7B54EFFAB1A46CF285ECDC /* Pods-doggieranker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +614,7 @@
 		};
 		0D4728B6222C65EB00DC5386 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7090D0CB299888C47ED5D756 /* Pods-doggierankerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +635,7 @@
 		};
 		0D4728B7222C65EB00DC5386 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DCD77D8085A2C164D6C32BA /* Pods-doggierankerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +656,7 @@
 		};
 		0D4728B9222C65EB00DC5386 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BB65FFDE0DFFC65B19C5F57 /* Pods-doggierankerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -525,6 +676,7 @@
 		};
 		0D4728BA222C65EB00DC5386 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EC905AC4CEC2E5402CA2DF4 /* Pods-doggierankerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
